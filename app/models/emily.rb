@@ -1,0 +1,2 @@
+class Emily < ApplicationRecord
+end

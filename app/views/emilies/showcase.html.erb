@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>emily showcase</title>
+</head>
+<body>
+	<div>
+			<h1>Cause You Are</h1>
+		<div>
+
+			<div id="slideshow" class="slide center-it">
+			 
+			  <%= @showcase %>
+			  <% @carousel.each do |show| %>
+			  	<h2 class="slide"> <%= show %></h2>
+			  <% end %>
+
+			</div>
+
+		</div>
+
+
+	</div>
+
+</body>
+</html>
